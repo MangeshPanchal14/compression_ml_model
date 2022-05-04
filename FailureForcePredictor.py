@@ -4,7 +4,7 @@ with open("Compression_Failure_Force_Predictor (5)","rb") as f:
 
 
 import streamlit as st
-st.title("Failure Force Predictor Machine Learning App")
+st.title("Compressive Failure Force Predictor Machine Learning App")
 a=st.number_input("Infill_Density")
 b=st.number_input("Yeild Strength")
 c= st.number_input("Young's Modulus")
